@@ -8,7 +8,7 @@ class MyFileOutput{
 			fin = new FileInputStream(FileDescriptor.in);
 			// BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
 			fout = new FileOutputStream("output.txt");
-			System.out.println("please input:");
+			System.out.println("请输入：");
 			while ((ch=fin.read())!='\n')
 				fout.write(ch);
 			fin.close();
