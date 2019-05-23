@@ -3,6 +3,12 @@ class Res
     String name;
     String sex;
     boolean flag = false;
+
+    // public synchronized void set(String name, String sex){
+    // 	if(flag)
+    // 	this.name = name;
+    // 	this.sex = sex;
+    // }
 }
 
 class Input implements Runnable
