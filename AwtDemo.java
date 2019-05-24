@@ -21,6 +21,7 @@ class MyWin extends WindowAdapter
 {
 	public void windowClosing(WindowEvent e)
 	{
-		System.out.println("window closed");
+		System.out.println("window closing"+e.toString());
+		System.exit(0);
 	}
 }
