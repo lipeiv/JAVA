@@ -1,12 +1,12 @@
 import java.awt.*;
 import java.awt.event.*;
 
-class FarmeDemo
+class FrameDemo
 {
 	private Frame f;
 	private Button but;
 
-	FarmeDemo()
+	FrameDemo()
 	{
 		init();
 	}
