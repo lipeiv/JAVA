@@ -4,12 +4,13 @@ public class scanner{
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Next:");
+		System.out.print("Please input your name:");
+		String name = scan.nextLine();
+		System.out.print("Please input your age:");
+		int age = scan.nextInt();
+		System.out.print("Please input your height:");
+		double height = scan.nextDouble();
 
-		if (scan.hasNext()) {
-			String str1 = scan.next();
-			System.out.println("data:" + str1);
-		}
-		scan.close();
+		System.out.printf("name:\t"+name+"\nage:\t"+age+"\nheight:\t"+height);
 	}
 }
